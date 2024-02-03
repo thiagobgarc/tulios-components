@@ -2,10 +2,14 @@
 import ContactInformation from "../ContactInformation"
 import Button from "../Button.astro"
 import AddressCity from "../Address&City"
+import ProjectDetails from "../ProjectDetails"
+import Space from "../space.astro"
 ---
 
-<div>
+<div class="mb-[3rem] mt-[3rem]">
     <ContactInformation />
     <AddressCity />
+    <ProjectDetails />
+    <Button text="Back" href="/"/>
     <Button text="Next" href="/third-form"/>
 </div>
